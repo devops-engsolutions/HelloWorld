@@ -1,5 +1,3 @@
-build:
-  image: node
+  image: dockerfile/nginx
   commands:
-    - npm install
-    - node app.js
+    - echo hello world
