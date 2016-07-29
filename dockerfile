@@ -9,3 +9,5 @@ RUN apt-get update \
   && apt-get install -y nano 
   && npm install -y
   && node app.js
+
+RUN echo teste dockerfile
