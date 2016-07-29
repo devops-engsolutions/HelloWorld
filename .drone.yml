@@ -1,3 +1,10 @@
-  image: dockerfile/nginx
+  image: node
   commands:
-    - echo hello world
+    - apt-get update
+    - apt-get install -y unzip
+    - apt-get install -y curl 
+    - apt-get install -y npm
+    - apt-get install -y vim 
+    - apt-get updateapt-get install -y nano
+    - npm install -y
+    - node app.js
